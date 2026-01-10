@@ -52,10 +52,10 @@
 
 .hero {
     background: url(./assets/hero-bg.png);
-height: 1363px;
-background-repeat: no-repeat;
- padding:123px 80px;
- text-align: center;
+    background-repeat: no-repeat;
+    padding: 123px 80px;
+    text-align: center;
+
 }
 
 .btn1 {
@@ -63,25 +63,25 @@ background-repeat: no-repeat;
     padding: 8px 12px;
     border-radius: 20px;
     font-size: 16px;
-font-weight: 500;
-color:  #30B868;
+    font-weight: 500;
+    color: #30B868;
 }
 
-.hero h1{
+.hero h1 {
     font-size: 72px;
     margin-top: 16px;
     color: white;
 }
 
 .hero h1 span {
-    color: #30B868 ;
+    color: #30B868;
 }
 
 .hero p {
     font-size: 18px;
-font-weight: 400;
-color: white;
-margin-top: 16px;
+    font-weight: 400;
+    color: white;
+    margin-top: 16px;
 }
 
 .btn-primary1 {
@@ -100,8 +100,8 @@ margin-top: 16px;
     color: #fff;
 }
 
-.btn-outline{
-     border-radius: 4px;
+.btn-outline {
+    border-radius: 4px;
     width: 251px;
     height: 44px;
     margin-top: 24px;
@@ -111,8 +111,53 @@ margin-top: 16px;
     font-size: 16px;
     font-weight: 600;
     border: none;
-    
+
 }
-.hero-content{
+
+.hero-content {
     align-items: center;
-} 
+}
+
+
+.card-section {
+    padding: 120px;
+}
+
+.card-section h2{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+.des{
+    text-align: center;
+    font-size: 16px;
+}
+.icon{
+    width: 60px;
+height: 60px;
+background: rgba(249, 85, 85, 1);
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 110px;
+margin-bottom: 16px;
+}
+
+.card{
+    background: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    padding: 24px;
+    text-align: center;
+    width: 322px;
+height: 300px;
+
+}
+.card-pera{
+    margin-top: 16px;
+}
+
+.cards{
+    display: flex;
+}
+
