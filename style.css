@@ -243,5 +243,28 @@ font-weight: 400;
     color: #fff;
 }
 
+.logo{
+    width: 20px;
+height: 20px;
+background-color: #fff;
+border-radius: 50%;
+}
 
+footer{
+    background-color: rgba(0, 25, 49, 1);
+}
 
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+}
+
+.footer-title{
+    color: #fff;
+    margin-bottom: 16px ;
+}
+
+.end-text{
+    text-align: center;
+}
